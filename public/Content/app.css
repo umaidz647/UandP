@@ -1,1 +1,16 @@
 /* Custom CSS goes here */
+/* custom css goes here */
+body {
+    background: linear-gradient(to bottom, gray, black);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
