@@ -1,0 +1,117 @@
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #fff;
+}
+
+header a {
+    color: #4dabf7; /* Bright blue links */
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Main container */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+/* Styling for reviews */
+fieldset {
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle light border */
+    border-radius: 5px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent dark fieldset */
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8); /* Strong shadow for depth */
+}
+
+legend {
+    font-size: 16px;
+    color: #4dabf7; /* Bright blue for titles */
+    padding: 0 10px;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0 0 5px;
+    color: #fff; /* White text for headings */
+}
+
+p {
+    margin: 5px 0;
+    color: #ccc; /* Slightly lighter gray for text */
+}
+
+a {
+    color: #4dabf7; /* Bright blue links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add review link */
+.add-review {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 15px;
+    background-color: #4dabf7; /* Bright blue button */
+    color: #000; /* Dark text for contrast */
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.add-review:hover {
+    background-color: #3b92d6; /* Darker blue on hover */
+}
+
+form {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Match dark theme */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8); /* Subtle shadow */
+    color: #fff; /* Light text for dark background */
+}
+
+form h2 {
+    text-align: center;
+    color: #4dabf7; /* Highlight color for the title */
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="date"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #222; /* Match dark theme */
+    color: #fff; /* Light text for readability */
+}
+
+input[type="submit"] {
+    background-color: #4dabf7;
+    color: #fff;
+    padding: 10px
+}
