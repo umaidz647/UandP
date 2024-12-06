@@ -13,6 +13,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     
+<<<<<<< HEAD
 }
 label {
     display: block;
@@ -24,3 +25,6 @@ label {
 label:first-of-type{
     margin-top: 0;
 }
+=======
+}
+>>>>>>> origin/main

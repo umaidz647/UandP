@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>U&P Movie Reviews</title>
+<<<<<<< HEAD
     <link rel="stylesheet" href="/Content/style.css">
 
+=======
+>>>>>>> origin/main
 </head>
 <body>
     <!--Header with logo and title-->
@@ -14,6 +17,7 @@
         <img src="/Assets/images/UandP.jpg" height="80px" width="80px">
     </header>
     <!--Link to ad a review-->
+<<<<<<< HEAD
     <a href="/add" class="add-review">Add a new review</a>
     <ul>
         <% reviews.forEach(review => { %>
@@ -26,6 +30,17 @@
                     <a href="/edit/<%= review._id %>">Edit</a> | 
                     <a href="/delete/<%= review._id %>">Delete</a>
                 </fieldset>
+=======
+    <a href="/add">Add a new review</a>
+    <ul>
+        <% reviews.forEach(review => { %>
+            <li>
+                <h2><%= review.movieName %></h2>
+                <p><strong>Release Date:</strong> <%= new Date(review.releaseDate).toLocaleDateString() %></p>
+                <p><%= review.reviewText %></p>
+                <a href="/edit/<%= review._id %>">Edit</a> | 
+                <a href="/delete/<%= review._id %>">Delete</a>
+>>>>>>> origin/main
             </li>
         <% }) %>
     </ul>
